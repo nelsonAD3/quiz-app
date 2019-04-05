@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<a href="https://fontmeme.com/fonts/game-of-thrones-font/"></a>
+	<title>Game of Thrones: Season 8 Warm-Up Quiz</title>
+	<meta name="description" content="A quiz to test your knowledge of the Night King.">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body >
+	<h1>GoT: Season 8 Warm-Up Quiz</h1>
+
+	<!-- 6 containers
+	First, has the prompt to hit start at the bottom, then becomes the container that holds all the questions
+
+	Containers 2-5 are hidden at first, but on start will show  the choices with a radio button
+
+	Last container has the start button at first, but on start will show submit buttons -->
+
+	<main>
+
+		<div id="score-container" class="score-container hidden" role='hold score'>
+			Score
+		</div>
+
+		
+		<div id="question-container" role='hold questions & feedback'>
+			Click the start button below to begin
+			
+		</div>
+
+		<form id="start-form" role='question area'>
+			<fieldset id="fieldset">
+
+				<div class="option-container hidden" id="option-container-1">
+					test
+				</div>
+
+				<div class="option-container hidden" id="option-container-2">
+					test
+				</div>
+
+				<div class="option-container hidden" id="option-container-3">
+					test
+				</div>
+
+				<div class="option-container hidden" id="option-container-4">
+					test
+				</div>
+
+				<img id="opening-image" class="opening-image" alt ="The Night King reanimating the dead" src="https://media3.giphy.com/media/xTiTnATWyYk9ItOLlK/giphy.gif" />
+
+
+				<div id="button-container" role="button area">
+						<button type="submit" id="js-start-button">Start!</button>
+				</div>
+
+			</fieldset>
+		</form>
+
+	</main>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+<footer role="credits" class="footer hidden">credit: https://gameofthrones.fandom.com/wiki/Night_King </footer>
+</html>
