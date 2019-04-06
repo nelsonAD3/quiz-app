@@ -14,7 +14,7 @@ const STORE = [
     choice3: "The Children of the Forest are nameless"
     },
 
-    {question: "What is the name of the sword that was crafted for Jaime Lannister's?",
+    {question: "What is the name of the sword that was crafted for Jaime Lannister?",
     answer: "Oathkeeper",
     choice1: "Heart's Bane",
     choice2: "Golden Tooth",
